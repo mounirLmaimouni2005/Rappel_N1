@@ -90,7 +90,18 @@ date_publication
 ```
 
 ---
+Identification des clés primaires
 
+TOURGUIDE
+PK : id_tourguide
+
+REGION
+PK : id_region
+
+DESTINATION
+PK : id_destination
+---
+---
 # 4. Déterminer les tables
 
 Les entités identifiées correspondent aux tables suivantes :
