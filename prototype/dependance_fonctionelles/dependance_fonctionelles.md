@@ -1,8 +1,9 @@
 ---
+
 marp: true
 theme: default
 paginate: true
----
+--------------
 
 # Décomposition des données
 
@@ -16,10 +17,10 @@ Les dépendances fonctionnelles identifiées sont :
 
 ```text
 email_tourguide → nom_complete_tourguide
-email_tourguide → mot_de_passe
-email_tourguide → telephone
 
-nom_region → description_region
+email_tourguide → mot_de_passe
+
+email_tourguide → telephone
 ```
 
 ---
@@ -41,9 +42,10 @@ telephone
 
 ```text
 nom_region
-description_region
 ```
+
 ---
+
 ### Groupe Destination
 
 ```text
@@ -73,9 +75,10 @@ telephone
 
 ```text
 nom_region
-description_region
 ```
+
 ---
+
 ### Entité 3 : DESTINATION
 
 ```text
@@ -94,7 +97,9 @@ Les entités identifiées correspondent aux tables suivantes :
 
 ```text
 TOURGUIDE
+
 REGION
+
 DESTINATION
 ```
 
@@ -106,10 +111,10 @@ Le système contient donc **3 entités / tables** :
 
 ```text
 TOURGUIDE
+
 REGION
+
 DESTINATION
 ```
 
-À ce stade, nous avons uniquement identifié les **entités et leurs données**.
 
-Les clés primaires, clés étrangères et relations seront définies dans les étapes suivantes.
