@@ -32,3 +32,5 @@ SELECT * FROM tourguide;
 SELECT * FROM region ; 
 SELECT * FROM destination ; 
 
+SHOW databases;
+USE destination_db

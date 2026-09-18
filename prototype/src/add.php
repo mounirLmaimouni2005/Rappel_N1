@@ -59,23 +59,23 @@ include 'includes/header.php';
 <form action="" method="POST" enctype="multipart/form-data">
 
     <label for="Nom_de_destination">Nom de destination :</label>
-    <input type="text" id="Nom_de_destination" name="nom_destination">
+    <input type="text" id="Nom_de_destination" name="nom_destination" required>
 
     <br>
 
     <label for="description">Description :</label>
-    <textarea id="description" name="description_destination"></textarea>
+    <textarea id="description" name="description_destination" required></textarea>
 
     <br>
 
     <label for="image">Image :</label>
-    <input type="file" id="image" name="image">
+    <input type="file" id="image" name="image" required>
 
     <br>
 
     <label for="region">Region</label>
    
-    <select name="id_region">
+    <select name="id_region" required>
 
         <option value="">Choisir une region</option>
 
